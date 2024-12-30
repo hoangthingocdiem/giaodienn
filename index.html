@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Thanh menu dọc bên trái -->
+        <div class="sidebar">
+          <h2>Hệ Thống</h2>
+          <ul>
+            <li>Trang Chủ</li>
+            <li>Quản Lý Sách</li>
+            <li>Mượn Trả Sách</li>
+            <li>Quản Lý Thành Viên</li>
+            <li>Báo Cáo - Thống Kê</li>
+            <li>Giới Thiệu</li>
+          </ul>
+        </div>
+    
+        <!-- Nội dung chính -->
+        <div class="main-content">
+          <!-- Header -->
+          <div class="header">
+            <h1>CHƯƠNG TRÌNH  QUẢN LÝ THƯ VIỆN HPC</h1>
+            <div class="user-info">
+              <span>Xin Chào</span>
+            </div>
+          </div>
+    
+          <!-- Menu chính -->
+          <div class="menu">
+            <button class="menu-btn">SÁCH</button>
+            <button class="menu-btn">LOẠI SÁCH</button>
+            <button class="menu-btn">TÁC GIẢ</button>
+            <button class="menu-btn">NXB</button>
+          </div>
+    
+          <!-- Phần tìm kiếm -->
+          <div class="search">
+            <label><input type="radio" name="search" value="title"> Tiêu Đề</label>
+            <label><input type="radio" name="search" value="category"> Loại Sách</label>
+            <label><input type="radio" name="search" value="publisher"> Nhà Xuất Bản</label>
+            <label><input type="radio" name="search" value="author"> Tác Giả</label>
+            <input type="text" placeholder="Tìm kiếm...">
+          </div>
+    
+          <!-- Bảng dữ liệu -->
+          <div class="table-container">
+            <table>
+              <thead>
+                <tr>
+                  <th>STT</th>
+                  <th>Tiêu Đề</th>
+                  <th>Thể Loại</th>
+                  <th>Nhà Xuất Bản</th>
+                  <th>Tác Giả</th>
+                  <th>Năm Xuất Bản</th>
+                  <th>Số Lượng</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>1</td>
+                  <td>Lập Trình C++</td>
+                  <td>Công Nghệ</td>
+                  <td>NXB Giáo Dục</td>
+                  <td>Nguyễn Văn A</td>
+                  <td>2020</td>
+                  <td>15</td>
+                </tr>
+                <tr>
+                  <td>2</td>
+                  <td>Kỹ Thuật Điện</td>
+                  <td>Khoa Học</td>
+                  <td>NXB Khoa Học</td>
+                  <td>Trần Văn B</td>
+                  <td>2019</td>
+                  <td>10</td>
+                </tr>
+                <tr>
+                  <td>3</td>
+                  <td>Cơ Học Ứng Dụng</td>
+                  <td>Kỹ Thuật</td>
+                  <td>NXB Xây Dựng</td>
+                  <td>Phạm Thị C</td>
+                  <td>2021</td>
+                  <td>8</td>
+                </tr>
+                <tr>
+                  <td>4</td>
+                  <td>Giải Tích 1</td>
+                  <td>Toán Học</td>
+                  <td>NXB Đại Học</td>
+                  <td>Lê Thị D</td>
+                  <td>2022</td>
+                  <td>20</td>
+                </tr>
+                <tr>
+                  <td>5</td>
+                  <td>Hóa Học Cơ Bản</td>
+                  <td>Khoa Học</td>
+                  <td>NXB Khoa Học</td>
+                  <td>Nguyễn Văn E</td>
+                  <td>2018</td>
+                  <td>12</td>
+                </tr>
+                <tr>
+                  <td>6</td>
+                  <td>Lập Trình Python</td>
+                  <td>Công Nghệ</td>
+                  <td>NXB Công Nghệ</td>
+                  <td>Nguyễn Văn F</td>
+                  <td>2023</td>
+                  <td>25</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <!-- Footer -->
+          <footer>
+            <p>© 2023 - Cao Đẳng Công Nghệ Bách Khoa Hà Nội</p>
+          </footer>
+        </div>
+      </div>
+    
+</body>
+</html>
